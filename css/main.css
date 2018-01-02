@@ -77,10 +77,24 @@ next:before {
 }
 
 .back{
+    background-color:
     width: 7%;
     height: 7%;
     margin-top: 10%;
     display:inline-block;
+}
+.newSection{
+    background-image: url('../assets/images/auto-batman-batmovil.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -25rem;
+    height: 100vh;
+    color:rgba(235, 15, 125, 0.918);
+
+}
+.title{
+    display: inline-block;
+    margin-left: 8%;
 }
        
    
