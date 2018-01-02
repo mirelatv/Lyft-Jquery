@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container-fluid initial">
+        <div class="row">
+           <img class="logoWhite col-xs-4 col-offset-xs-4" src="assets/images/logo-white.png" alt="">
+
+        </div>
+    </section>
+    
+    <section class="container-fluid pageTwo">
+        <div class="row">
+           <img class="logoWhite col-xs-4 col-offset-xs-4" src="assets/images/logo-white.png" alt="">
+           <img class="logolyftLife   col-xs-12" src="assets/images/lyft-life.png" alt="">
+           <button type="button" class=" col-xs-4 btn btn-info btn-lg signUp" data-toggle="modal" data-target="#myModal">SIGN UP</button>
+           <button class=" loginUp col-xs-4  btn btn-info btn-lg ">LOGIN IN</button> 
+           
+        </div>
+    
+    </section>
+    <section>
+        <div class="container">
+                                                           
+         <!-- Modal -->
+           <div class="modal fade" id="myModal" role="dialog">
+               <div class="modal-dialog">
+                      
+                <!-- Modal content-->
+                   <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <img  class="back" src="assets/images/back.svg" alt="">
+                            <h4 class="modal-title ">Sign Up</h4>
+                            <h6 class="text-center">Join now for free ride credit</h6>
+                        </div>
+                        <div class="modal-body">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-white dropdown-toggle btn-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img class="image-select" src="assets/images/mexico.png">
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                </button>
+                                  
+                                <ul class="dropdown-menu">
+                                  
+                                   <li>
+                                       <a href="#" title="Select this card">
+                                          <img class="image-select" src="assets/images/mexico.png">
+                                       </a>
+                                   </li>
+                                   <li>
+                                       <a href="#" title="Select this card">
+                                          <img class="image-select" src="assets/images/us.png">
+                                       </a>
+                                   </li>
+                                   <li>
+                                       <a href="#" title="Select this card">
+                                          <img class="image-select" src="assets/images/peru.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                                  
+                            <input type="text" class="input-phone" placeholder="52" maxlength="10">
+                                
+                            <div class="box-next">
+                                <button  data-toggle="modal2" data-target="Modal2" type="button" class=" next btn btn-default" data-dismiss="modal" disabled>NEXT</button>
+                            </div>
+                            
+                       </div>
+                </div>
+            </div>
+                    
+         </div>
+         <!-- Modal -->
+         <div class="modal2 fade" id="Modal2" role="dialog">
+                <div class="modal2-dialog">
+                       
+                 <!-- Modal content-->
+                    <div class="modal2-content">
+                         <div class="modal2-header">
+                             <button type="button" class="close" data-dismiss="modal2">&times;</button>
+                             <img  class="back" src="assets/images/back.svg" alt="">
+                             <h4 class="modal2-title ">Sign Up</h4>
+                             <h6 class="text-center">Join now for free ride credit</h6>
+                         </div>
+                         <div class="modal2-body">
+                             
+                         </div>
+                         <div class="modal2-footer">
+                             <div class="btn-group">
+                                 <button type="button" class="btn btn-white dropdown-toggle btn-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                     <img class="image-select" src="assets/images/mexico.png">
+                                     <span class="glyphicon glyphicon-chevron-down"></span>
+                                 </button>
+                                   
+                                 <ul class="dropdown-menu">
+                                   
+                                    <li>
+                                        <a href="#" title="Select this card">
+                                           <img class="image-select" src="assets/images/mexico.png">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Select this card">
+                                           <img class="image-select" src="assets/images/us.png">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Select this card">
+                                           <img class="image-select" src="assets/images/peru.png">
+                                         </a>
+                                     </li>
+                                 </ul>
+                             </div>
+                                   
+                             <input type="text" class="input-phone" placeholder="52" maxlength="10">
+                                 
+                             <div class="box-next">
+                                 <button  href="#" type="button" class=" col-xs-4  next btn btn-default" data-dismiss="modal" disabled>NEXT</button>
+                             </div>
+                             
+                        </div>
+                 </div>
+             </div>
+                     
+          </div>
+    </section>
+          
+    
+
+
+ 
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <Script src="js/app.js"></script>
+
+</body>
+</html>
